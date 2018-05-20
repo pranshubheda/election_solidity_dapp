@@ -1,0 +1,30 @@
+{
+  "name": "election",
+  "version": "0.0.0",
+  "description": "Election using Solidity.",
+  "main": "server.js",
+  "author": "Pranshu Bheda",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranshubheda/election.git"
+  },
+  "keywords": [
+    "election"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranshubheda/election/issues"
+  },
+  "homepage": "https://github.com/pranshubheda/election#readme"
+}
