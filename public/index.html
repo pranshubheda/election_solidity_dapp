@@ -17,18 +17,35 @@
     <!-- SPELLS -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script type="text/javascript" src="js/core.js"></script>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
 
 </head>
 <!-- SET THE CONTROLLER AND GET ALL TODOS -->
-<body>
-    <div class="container">
+<body ng-controller="electionController">
 
-        <!-- HEADER AND TODO COUNT -->
-        <div class="jumbotron text-center">
-            <h1>ELECTION USING SOLIDITY!!</h1>
-        </div>
+    <div class="container">
+        <!-- <div class="form-group">
+            <form ng-submit="">
+                <label for="electionName">Election Name</label>
+                <input type="text" id="electionName" ng-model="electionName" class="form-control">
+                
+                <label for="contestantName">Add Contestant</label>
+                <input type="text" id="contestantName" ng-model="contestantName" class="form-control">
+                
+                <label for="authorizeAddress">Authorize Address</label>
+                <input type="text" id="authorizeAddress" ng-model="authorizeAddress" class="form-control">
+                
+                <label for="castVote">Cast Vote</label>
+                <input type="text" id="castVote" ng-model="castVote" class="form-control">
+                
+                <input type="submit" id="end"  class="form-control">            
+            </form>
+
+        </div> -->
+
+        <canvas id ="myChart"></canvas>
+    </div>
 
 </body>
-
 </html>
