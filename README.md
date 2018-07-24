@@ -1,6 +1,6 @@
 # election_solidity_dapp
 
-This was my first attempt at Smart Contracts after I attended an online webinar by blockgeeks which laid emphasis on the future of blockchain technologies and its applications in terms of Smart Contracts.
+This was my first attempt at creating a Decentraclised Application (DAPP) after I attended an online webinar by blockgeeks which laid emphasis on the future of blockchain technologies and its applications in terms of Smart Contracts.
 
 I had built an Etherium Smart Contract using Solidity and the Remix IDE, and used Web3.js and Angular 1 to provide a UI to the smart contract.
 
