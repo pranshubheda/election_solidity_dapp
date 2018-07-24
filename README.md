@@ -6,5 +6,5 @@ I had built an Etherium Smart Contract using Solidity and the Remix IDE, and use
 
 Used Web3.js to interact with the smart contract and Etheriumjs-testrpc for local testing.
 
-Used <a href=https://www.youtube.com/watch?v=hcTPjpPvas8">this</a> link below as reference to provide a UI using JavaScript and Angular to the Smart Contract.
+Used <a href="https://www.youtube.com/watch?v=hcTPjpPvas8"> this</a> link below as reference to provide a UI using JavaScript and Angular to the Smart Contract.
 
